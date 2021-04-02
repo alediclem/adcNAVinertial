@@ -27,7 +27,7 @@ The board has a SWD connector for MCU debugging and programming, one  Micro-B US
 A board prototype was easily assembled using reflow soldering; magnetometer IC was out of stock from distributors due to 2020 semiconductor shortage.
 
 <p align="center">
-<img src="/images/assembly.jpg" width="512">
+<img src="/images/assembly.JPG" width="256">
 </p>
 
 C drivers for sensors and USB were written in order to stream data to a host computer using a virtual COM port. The following Simulink model can be used for real-time visualization and processing up to the maximum sensor sample rate of 6.6 kHz:
